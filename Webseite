@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herrscher</title>
+    <style>
+        .foto-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .foto {
+            border: 5px solid blue;
+            background-color: red;
+            display: inline-block;
+        }
+        .name {
+            text-align: right;
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .details {
+            margin-top: 20px;
+            text-align: left;
+            line-height: 1.6;
+        }
+        .mama {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .mama img {
+            width: 50%; /* Passen Sie die Größe bei Bedarf an */
+            border-radius: 10px;
+        }
+        .caption {
+            font-style: italic;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Herrscher - Die Geschichte eines Königs</h1>
+        <nav>
+            <ul>
+                <li><a href="#geschichte">Geschichte</a></li>
+                <li><a href="#herrscher">Der Herrscher</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="geschichte">
+            <h2>Die Geschichte</h2>
+            <p>Die Legende erzählt von einem großen König, der über sein Reich mit Weisheit und Stärke herrschte.</p>
+        </section>
+
+        <section id="herrscher">
+            <h2>Der Herrscher</h2>
+            <div class="foto-container">
+                <img src="herrscher.jpg" alt="Foto des Herrschers" class="foto">
+                <div class="name">König Wilhelm</div>
+            </div>
+            <div class="details">
+                <p><strong>Geburtsdatum:</strong> 12. März 1480</p>
+                <p><strong>Vorlieben:</strong> Jagen, Schachspielen, Musik</p>
+                <p><strong>Info:</strong> König Wilhelm war bekannt für seine strategischen Fähigkeiten und sein ausgeprägtes Gespür für Gerechtigkeit. Er führte das Reich zu einer glorreichen Zeit des Wohlstands und der Kultur.</p>
+            </div>
+            <div class="mama">
+                <img src="mutter.jpg" alt="Foto der Mutter des Herrschers">
+                <div class="caption">Auch große Herrscher brauchen eine Mama</div>
+            </div>
+            <article>
+                <h3>Seine Anfänge</h3>
+                <p>Der Herrscher begann als einfacher Krieger, der durch seine Tapferkeit die Aufmerksamkeit des Volkes auf sich zog.</p>
+            </article>
+            <article>
+                <h3>Herrschaftszeit</h3>
+                <p>Während seiner Herrschaft führte er das Königreich zu einer nie dagewesenen Blütezeit.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Für weitere Informationen schreiben Sie uns bitte eine E-Mail an <a href="mailto:info@herrscher.de">info@herrscher.de</a>.</p>
+        </section>
+        <p>&copy; 2024 Herrscher Website. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
