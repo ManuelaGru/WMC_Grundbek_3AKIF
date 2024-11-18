@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hier spricht der König</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-color: #ffcc00;
+            color: #333;
+            padding: 20px 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hier spricht der König</h1>
+    </header>
+    <main>
+        <p><strong>Mein Name ist Lauser und mein Name ist Programm.</strong></p>
+        <a href="https://postimg.cc/Wq3by2MS" target="_blank">
+            <img src="https://i.postimg.cc/Rh16Nhqr/20241103-121523.jpg" alt="20241103-121523" />
+        </a>
+        <p>Ich bin am <strong>2.9.2022</strong> geboren und wie man sieht, eine perfekte Schönheit ;)</p>
+        <p>Zuhause herrsche ich! Meine Ziehmama:</p>
+        <a href="https://postimg.cc/7b6HwZ2n" target="_blank">
+            <img src="https://i.postimg.cc/sfPvPBfq/20240929-163818.jpg" alt="20240929-163818" />
+        </a>
+        <p>Habe ich mega lieb, ich verstehe nur nicht, warum sie so geschrumpft ist, während ich nach oben wachse?</p>
+        <p>Ich würde am liebsten den ganzen Tag spielen, aber natürlich darf auch mein Schönheitsschlaf nicht zu kurz kommen :)</p>
+        <p>Wenn ich nicht spiele oder schlafe, bin ich am Futtern... und dann...</p>
+        <p><strong>Neugierig geworden? Dann warte auf morgen :D</strong></p>
+    </main>
+</body>
+</html>
