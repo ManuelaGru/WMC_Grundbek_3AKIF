@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse - Free Trial</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4fdf5;
+            color: #333;
+        }
+
+        header {
+            background-color: #f4fdf5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #34c759;
+            font-size: 36px;
+        }
+
+        .pricing-section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            color: #34c759;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .card button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #34c759;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .card button:hover {
+            background: #2caa4f;
+        }
+
+        .faq {
+            margin: 40px auto;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .faq h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .faq-item h3 {
+            cursor: pointer;
+            color: #34c759;
+        }
+
+        .faq-item p {
+            display: none;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: #fff;
+        }
+
+        footer a {
+            color: #34c759;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Try Pulse Free for 30 Days</h1>
+    <p>See why Pulse is the best way to monitor your cash flow. Sign up for any plan and try Pulse absolutely free for 30 days.</p>
+</header>
+
+<section class="pricing-section">
+    <div class="card">
+        <h2>Small Business Plan</h2>
+        <p><strong>$59 per month</strong></p>
+        <p>Manage cash flow, forecast growth, integrate with QuickBooks, and more.</p>
+        <button>Sign Up Now</button>
+    </div>
+
+    <div class="card">
+        <h2>Premium Plan</h2>
+        <p><strong>$89 per month</strong></p>
+        <p>All the features of the Small Business Plan plus localized currency support and detailed reporting.</p>
+        <button>Try Premium</button>
+    </div>
+</section>
+
+<section class="faq">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+        <h3>How does the 30-day free trial work?</h3>
+        <p>You can use Pulse free for 30 days. After 30 days, you will be charged unless you cancel.</p>
+    </div>
+    <div class="faq-item">
+        <h3>What is a "Financial Account"?</h3>
+        <p>Financial Accounts help you group income and expenses for reporting purposes.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Will I be able to cancel my account?</h3>
+        <p>Yes, you can cancel your account anytime through your account settings.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2019 Pulseapp.com. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+<script>
+    document.querySelectorAll('.faq-item h3').forEach(item => {
+        item.addEventListener('click', () => {
+            const content = item.nextElementSibling;
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
+
+</body>
+</html>
